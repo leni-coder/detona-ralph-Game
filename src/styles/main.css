@@ -20,6 +20,7 @@
         align-items: center;
         justify-content: center;
         margin-top: 1rem;
+     
 }
 .square{
     height: 150px;
@@ -38,6 +39,23 @@
 }
 
 .menu-time h2:nth-child(2),
-.menu-score h2:nth-child(2){
+.menu-score h2:nth-child(2),
+.menu-error h2:nth-child(2){
     margin-top: 1rem;
+}
+.btn{
+  
+  margin-right: 50px;
+
+    display: flex;
+    
+  
+    
+}
+
+#startStop{
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    align-items: center;
 }
